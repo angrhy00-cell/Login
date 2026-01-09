@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width-device-width,initial-scale="1.0">
+<link rel="stylesheet" href="style.css"/>
+<title>Login form</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    text-align: center;
+}
+
+.form h1 {
+    margin-bottom: 20px;
+}
+
+.form-input input[type="text"], .form-input input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-input input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.reset-pass {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+#submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:#FAEBD7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color:#808080;
+}
+
+  </style>
+</head>
+<body>
+       <div class="container">
+       <div class="form">
+       <br/>
+       <br/>
+       <h1>Login</h1>
+       <form action="" class="form-input">
+       <input type="text" placeholder="username" id="username" name="username"required>
+       <input type="password" placeholder="password" id="password" name="password"required>
+       <input type="checkbox" name="checkbox" id="remember-me" name="remember-me">
+       <label for="">Remember Me</label><br/>
+       <a href="#" class="reset-pass">forgot password</a><br/>
+       <input type="submit" id="submit-btn" value="login"/>
+       </form>
+      </div>
+     </div>
+    </body>
+</html>
